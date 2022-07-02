@@ -1,6 +1,6 @@
-import Success from "images/success.png"
-import Error from "images/error.png"
-import Warning from "images/warning.png"
+import Success from "./images/success.png"
+import Error from "./images/error.png"
+import Warning from "./images/warning.png"
 
 export const refToGetHeight =
 	(callback: (height: number) => void) => (el: HTMLElement | null) => {
